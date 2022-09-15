@@ -1,4 +1,4 @@
-package com.inventory.bean;
+package com.order.bean;
 
 import java.util.List;
 
@@ -9,8 +9,8 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class InventoryItemList {
+public class OrderList {
 	
-	private List<InventoryItem> inventoryItems;
+	private List<Order> orders;
 
 }
